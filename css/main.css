@@ -19,10 +19,14 @@
   position: fixed;
   width: 100%;
 }
-
-.header__links {
-  border: 5px bold red;
+.header__left {
   display: flex;
+  align-items: flex-end;
+}
+
+.header__right {
+  display: flex;
+  align-items: flex-end;
 }
 
 .header__nav-logo {
