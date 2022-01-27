@@ -16,6 +16,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.header__links {
+  border: 5px bold red;
+  display: flex;
 }
 
 .header__nav-logo {
@@ -34,6 +41,28 @@
   padding-right: 4rem;
 }
 
+a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 1.4rem;
+}
+
+.nav-anchor:hover::after {
+  content: "";
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 0;
+  border: 1px solid #db7a4e;
+}
+
+.bottom-right {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 1.4rem;
+}
 .header__nav-links-item {
   text-decoration: none;
   list-style-type: none;
@@ -51,19 +80,19 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 1.25rem;
+  margin-top: 15.625rem;
 }
 .main-content__top {
   background-color: #fefaf5;
   display: flex;
-  flex: 60%;
-  justify-content: space-evenly;
+
+  justify-content: center;
   padding: 5rem;
 }
 
 .main-content__top-left {
   margin: auto;
-  margin-left: 2rem;
-  padding: 2rem;
+  margin-left: 2.5rem;
 }
 
 h1 {
@@ -95,23 +124,55 @@ h2 {
 }
 
 .product__items {
-  border: 5px solid red;
+  justify-content: center;
+}
+.product__container {
   display: flex;
-  padding: 5-0px;
+  justify-content: space-evenly;
+  margin: 1.6rem 3.2rem;
+  box-sizing: border-box;
 }
 
 .product__hawaii,
 .product__iceland,
 .product__greece {
-  border: 5px solid red;
+  border-radius: 5px;
   color: black;
   position: relative;
 }
 
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-weight: bold;
+}
+
 .product__image {
-  min-height: 600px;
+  min-height: 400px;
   max-height: 250px;
 }
 .heading__item-name {
   color: black;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  background-color: #fefaf5;
+}
+
+.footer__sections {
+  border: 10px bold black;
+  text-align: left;
+  margin: auto;
+}
+
+.footer__title {
+  font-size: 2.06rem;
+  font-weight: bold;
+  color: #335576;
 }

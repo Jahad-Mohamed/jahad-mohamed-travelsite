@@ -8,17 +8,19 @@
     <title>Homepage</title>
   </head>
   <body>
-    <header class="header">
-      <span class="header__nav-logo">Travel Site</span>
-      <nav class="header__nav">
-        <ul class="header__nav-links">
-          <li class="header__nav-links-item"><a href="">Home</a></li>
-          <li class="header__nav-links-item"><a href="">Hawaii</a></li>
-          <li class="header__nav-links-item"><a href="">Iceland</a></li>
-          <li class="header__nav-links-item"><a href="">Greece</a></li>
-        </ul>
-      </nav>
-    </header>
+      <header class="header">
+        <div class="header__links">
+          <span class="header__nav-logo">Travel Site</span>
+          <nav class="header__nav">
+            <ul class="header__nav-links">
+              <li class="header__nav-links-item"><a class="nav-anchor" href="">Home</a></li>
+              <li class="header__nav-links-item"><a class="nav-anchor" href="../pages/hawaii.html">Hawaii</a></li>
+              <li class="header__nav-links-item"><a class="nav-anchor" href="../pages/iceland.html">Iceland</a></li>
+              <li class="header__nav-links-item"><a class="nav-anchor" href="../pages/greece.html">Greece</a></li>
+            </ul>
+          </nav>
+        </div>  
+      </header>
 
     <main class="main-content">
       <div class="main-content__top">
@@ -31,7 +33,7 @@
           <button>Get started</button>
         </section>
         <section class="main-content__top-right">
-          <img src="../assets/Images/hero.png" alt="hero" width="600px" />
+          <img src="../assets/Images/hero.png" alt="hero" width="600px"/>
         </section>
       </div>
       <div>
@@ -39,38 +41,72 @@
           <h2> Recommendations</h2>
             </section>
       <section class="product__items"> 
-        <div class="product__hawaii">
-          <img
-          src="../assets/images/hawaii.jpg"
-          alt="hawaii" 
-          class="product__image"
-        />
-        <h3 class="product__image-name">Hawaii</h3>
-        
-        </div>
-        <div class="product__iceland">
-          <img
-          src="../assets/images/iceland.jpg"
-          alt="iceland" 
-          class="product__image"
-          />
-        <h3 class="heading__item-name">Iceland</h3>
-        
-        </div>
-        <div class="product__greece" >
-         <img
-          src="../assets/images/greece.jpg"
-          alt="greece" 
-          class="product__image"
-        />
-           <h3 class="heading__item-name">Grecce</h3>
-           
-          </div>
-         </section>
+        <section class="product__container"> 
 
-        </section>
-        
+        <div> 
+          <a  href="./hawaii.html" class="product__link">
+            <img
+            src="../assets/images/hawaii.jpg"
+            alt="hawaii" 
+            class="product__image"
+            
+          />
+          <div class="bottom-right">Hawaii</div>   
+        </a>
       </div>
+          <div class="product__iceland">
+            <img
+            src="../assets/images/iceland.jpg"
+            alt="iceland" 
+            class="product__image"
+            />
+          <h3 class="heading__item-name">Iceland</h3>
+          </div>
+
+          <div class="product__greece">
+            <img src="../assets/images/greece.jpg"
+            alt="greece" 
+            class="product__image"/>
+            <h3 class="heading__item-name">Greece</h3>
+          </section>
+      </section>
+
+
+
+
+
+        <footer class="footer">
+            <div class="footer__sections">
+                <h3 class="footer__title">Address</h3>
+                <p class="footer__address">503 Broadway Penthouse<br><br>New York</p>
+            </div>
+            <div class="footer__sections">
+                <h3 class="footer__title">Hours</h3>
+                <p class="footer__hours-info">
+                  <strong>Monday - Friday:</strong> 9am - 7pm
+                </p>
+                <p class="footer__hours-info">
+                  <strong>Saturday - Sunday:</strong> 10am - 5pm
+                </p>
+            </div>
+            <div class="footer__sections">
+                <h3 class="footer__title">Social</h3>
+                <a href="facebook.com"
+                  ><img
+                    src="../assets/icons/icon-instagram.png"
+                    class="icon"
+                    alt="Instagram"
+                /></a>
+                <a href="yelp.com"></a>
+                <img src="../assets/icons/icon-facebook.png" class="icon" alt="Facebook" />
+                <a href="Facebook.com"></a>
+                <img
+                  src="../assets/icons/icon-twitter.png"
+                  class="icon"
+                  alt="Instagram"
+                />
+            </div>               
+    </footer>
     </main>
   </body>
 </html>
