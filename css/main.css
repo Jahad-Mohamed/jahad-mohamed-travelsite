@@ -19,6 +19,7 @@
   position: fixed;
   width: 100%;
 }
+
 .header__left {
   display: flex;
   align-items: flex-end;
@@ -30,7 +31,7 @@
 }
 
 .header__nav-logo {
-  font-size: 2.06rem;
+  font-size: 1.06rem;
   font-weight: bold;
   color: #335576;
   padding-left: 7rem;
@@ -41,7 +42,7 @@
   justify-content: space-evenly;
   text-decoration: none;
   list-style-type: none;
-  font-size: 1.6rem;
+  font-size: 1rem;
   padding-right: 4rem;
 }
 
@@ -49,7 +50,7 @@ a {
   position: relative;
   text-decoration: none;
   color: black;
-  padding-bottom: 1.4rem;
+  padding-bottom: 0.8rem;
 }
 
 .nav-anchor:hover::after {
@@ -70,7 +71,7 @@ a {
 .header__nav-links-item {
   text-decoration: none;
   list-style-type: none;
-  padding: 0.16rem 1.6rem;
+  padding: 0.16rem 1rem;
   color: black;
 }
 
@@ -165,20 +166,37 @@ h2 {
 /* footer */
 
 .footer {
-  display: flex;
-  justify-content: center;
-  text-align: left;
+  display: block;
+  justify-content: left;
+  text-align: center;
   background-color: #fefaf5;
 }
 
 .footer__sections {
   border: 10px bold black;
   text-align: left;
-  margin: auto;
+  width: max-content;
 }
 
 .footer__title {
   font-size: 2.06rem;
   font-weight: bold;
   color: #335576;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.footer__subtitle {
+  color: #db7a4e;
+  display: flex;
+}
+
+.footer__info {
+  color: #335576;
+  display: flex;
+}
+
+.icon {
+  padding-left: 3rem;
 }
