@@ -120,37 +120,51 @@ a {
 }
 
 /* FOOTER */
+
+.footer__subtitle {
+  font-size: 1.6;
+  color: #db7a4e;
+}
+
+.footer__subtitle-days {
+  color: #db7a4e;
+  margin-right: 45px;
+}
+
+.footer__subtitle-saturday {
+  color: #db7a4e;
+  margin-right: 105px;
+}
+
+.footer__text-times {
+  color: #335576;
+  margin-right: 40px;
+}
+
+.footer__subtitle {
+  padding-bottom: 20px;
+}
+
+.footer__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #335576;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__text {
+  color: #335576;
+}
+
 .footer__days,
-.footer__hours {
+.footer__hours,
+.footer__subtitle {
   display: flex;
-  flex-direction: row ;
-;
+  flex-direction: row;
 }
 
 .footer__section {
   display: flex;
   justify-content: space-around;
-
-}
-
-/*
-.footer__section {
-  padding: 20px;
-}
-
-.footer__title {
-  display: flex;
-}
-
-.footer__subtitle {
-  display: flex;
-}
-
-.footer__text {
-  display: flex;
-}
-
-.icon {
-  min-width: 20px;
-  max-width: 80px;
 }
