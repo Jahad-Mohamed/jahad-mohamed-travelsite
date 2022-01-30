@@ -91,9 +91,8 @@ a {
 .main-content__top {
   background-color: #fefaf5;
   display: flex;
-
   justify-content: center;
-  padding: 5rem;
+  padding: 4rem;
 }
 
 .main-content__top-left {
@@ -104,13 +103,15 @@ a {
 h1 {
   color: #335576;
   padding-bottom: 2rem;
-  font-size: 4.063;
+  font-size: 3.03rem;
+  max-width: 800px;
 }
 
 p {
   color: #335576;
   padding-bottom: 2rem;
   font-size: 1rem;
+  max-width: 600px;
 }
 button {
   padding: 0.56rem 2rem;
@@ -121,10 +122,12 @@ button {
 }
 
 .hero__image {
-  width: 700px;
-  padding-top: 4.375rem;
+  min-width: 35.25rem;
+  max-width: 35.25rem;
+  min-height: 31.25rem;
+  max-height: 31.25rem;
+  padding-top: 5rem;
 }
-
 /* hero bottom */
 
 h2 {

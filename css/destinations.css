@@ -15,6 +15,7 @@
   justify-content: space-between;
   width: 100%;
   z-index: 99;
+  position: fixed;
 }
 
 .header__left {
@@ -87,6 +88,7 @@ a {
   background-attachment: fixed;
   background-position: center;
   padding-bottom: 11.688rem;
+  padding-top: 5rem;
 }
 
 .main__section-hawaii {
@@ -96,6 +98,7 @@ a {
   background-attachment: fixed;
   background-position: center;
   padding-bottom: 11.688rem;
+  padding-top: 5rem;
 }
 
 .main__section-iceland {
@@ -105,13 +108,13 @@ a {
   background-attachment: fixed;
   background-position: center;
   padding-bottom: 11.688rem;
+  padding-top: 5rem;
 }
 
 /* Card container*/
 
 .card__container {
   display: flex;
-
   justify-content: center;
 }
 
