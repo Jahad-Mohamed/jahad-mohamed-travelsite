@@ -2,12 +2,6 @@
 
 /* navigation bar*/
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: "Verdana";
-}
-
 .header {
   background-color: white;
   color: #335576;
